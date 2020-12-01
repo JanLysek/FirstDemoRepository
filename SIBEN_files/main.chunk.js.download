@@ -6441,6 +6441,7 @@ function (_Siben$Component) {
       var targetIndex = this.state.data.values.indexOf(code);
       var answerData = lodash__WEBPACK_IMPORTED_MODULE_8__["cloneDeep"](this.state.data);
       answerData.values = utils_Utils__WEBPACK_IMPORTED_MODULE_10__["moveElement"](answerData.values, sourceIndex, targetIndex);
+      alert("drop");
       this.updateState({
         data: answerData
       });
@@ -6466,7 +6467,7 @@ function (_Siben$Component) {
         className: className,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 91
         },
         __self: this
       }, this.state.data && this.state.data.values && this.state.data.values.map(function (code, index) {
@@ -6485,7 +6486,7 @@ function (_Siben$Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 92
+            lineNumber: 93
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5__["createElement"]("img", {
@@ -6494,7 +6495,7 @@ function (_Siben$Component) {
           alt: "",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 100
+            lineNumber: 101
           },
           __self: this
         }), services_ContractsEx__WEBPACK_IMPORTED_MODULE_11__["getLocalizedText"](_this2.state.dictionary[code]));
