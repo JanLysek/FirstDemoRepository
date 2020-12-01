@@ -1,0 +1,1 @@
+var clientSettings = JSON.parse('{"environmentName":"Development","websiteUrl":"https://web-local.siben3.net:44376"}');
